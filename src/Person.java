@@ -62,6 +62,8 @@ public class Person {
     }
 
     public void greetOtherPerson(Person other){
+
+
         System.out.println("Hej! " + other.getFirstName());
         System.out.println("jag heter "+ this.firstName);
     }
@@ -70,7 +72,7 @@ public class Person {
         return "Jag är " + this.age + " år gammal.";
     }
 
-    public void askAge(int guess){
+    public void guessAge(int guess){
 
         if (guess == this.age){
             System.out.println("så gammal är ju jag!");

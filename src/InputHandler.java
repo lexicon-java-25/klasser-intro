@@ -20,6 +20,21 @@ public class InputHandler {
         return i;
     }
 
+    public static int getIntInput(int min, int max){
+
+        while(true){
+            int i = getIntInput();
+
+            if(i >= min && i <= max){
+                return i;
+            }
+
+            System.out.println("fel input, skriv ett tal " + min + "-" + max);
+        }
+    }
+
+
+
 
 
 }

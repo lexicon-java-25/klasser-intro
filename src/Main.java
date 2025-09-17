@@ -1,3 +1,4 @@
+import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -38,8 +39,8 @@ public class Main {
 //
 //            p2.greetOtherPerson(p);
 //            //sc.nextLine();
-
-            System.out.println(InputHandler.getIntInput());
+            System.out.println("skriv ett tal: ");
+            System.out.println(InputHandler.getIntInput(0,5));
 
 
 //            InputHandler.getStringInput();
